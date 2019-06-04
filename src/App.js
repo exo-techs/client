@@ -2,7 +2,7 @@ import {useState, default as React} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-var socket = require('socket.io-client')('http://192.168.3.153:3001');
+var socket = require('socket.io-client')('https://exotech-server.herokuapp.com/');
 
 function App() {
 
