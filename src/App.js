@@ -1,6 +1,6 @@
 import {useState, default as React} from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.css'; 
 
 var socket = require('socket.io-client')('https://exotech-server.herokuapp.com/');
 
